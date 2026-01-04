@@ -45,10 +45,10 @@ export interface SlideTheme {
   overlayColor: string;
 }
 
-export const SITE_TITLE = "MONA";
-export const SITE_DESCRIPTION = "Mona — Learn from What We Build";
+export const SITE_TITLE = "RISE";
+export const SITE_DESCRIPTION = "RISE — Take your business to the next level.";
 
-export const PROD_URL = "https://www.mymona.xyz";
+export const PROD_URL = "https://www.fafifo92.com";
 
 export const isProdEnv = () => {
   if (import.meta.env?.PROD || import.meta.env?.MODE === "production") {
@@ -81,32 +81,32 @@ export interface MenuItem {
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: "blogs",
-    label: "Articles",
+    label: "Casos de éxito",
     href: "/blogs",
-    title: "Articles",
+    title: "Casos de éxito",
     description:
-      "Practical guides, in-depth technical pieces, and lessons from real projects.",
+      "Casos de éxito de nuestros clientes que han decidido trabajar con nosotros.",
   },
   {
     id: "cards",
-    label: "Cards",
+    label: "Retos",
     href: "/cards",
-    title: "Cards",
-    description: "Developer-Gathered, AI-Crafted, Human-Checked.",
+    title: "Retos superados",
+    description: "Restos a los cuales nos hemos enfrentado y superado.",
   },
   {
     id: "slides",
-    label: "Slides",
+    label: "Branding",
     href: "/slides",
-    title: "Slides",
-    description: "Interactive presentations crafted for developers.",
+    title: "Branding",
+    description: "Mira de cerca los manuales de marcas que hemos creado.",
   },
   {
     id: "open-source",
     label: "GitHub",
-    href: "https://github.com/monakit/monakit",
+    href: "https://github.com/fafifo92",
     title: "GitHub",
-    description: "Explore our open-source projects.",
+    description: "Explora nuestros proyectos.",
   },
 ];
 
