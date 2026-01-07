@@ -50,6 +50,12 @@
         "description": "Servicios legales en colocación de créditos y cobranzas.",
         "cover": "../../creations/citisumma.jpg",
         "link": "https://www.citisumma.com/"
+      },
+      {
+        "name": "SPA Roma",
+        "description": "Estética y belleza, centro de relación y descanso en Medellín.",
+        "cover": "../../creations/roma.jpg",
+        "link": "https://sparoma.com.co/"
       }
     ]
   }
