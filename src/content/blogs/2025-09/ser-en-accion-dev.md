@@ -1,9 +1,9 @@
 ---
 title: "Ingeniería de Ser en Acción: Sistema de Match Laboral Basado en COUC"
 pubDate: "2025-12-27T18:00:00.000Z"
-author: TuNombre
+author: Francisco Núñez
 description: "Análisis técnico del desarrollo de una plataforma de reclutamiento sostenible utilizando Node.js, Tailwind CSS y la integración de la Clasificación Única de Ocupaciones para Colombia."
-tags: [nodejs, tailwindcss, arquitectura-software, couc, match-algorithm]
+tags: [nodejs, tailwindcss, arquitectura-software, data-analysis]
 ---
 
 El proyecto **Ser en Acción** representa una evolución en los sistemas de adquisición de talento. Técnicamente, el reto consistió en transformar la estructura semántica de la **Clasificación Única de Ocupaciones para Colombia (COUC)** en un modelo de datos relacional capaz de ejecutar cálculos de compatibilidad en tiempo real entre perfiles de candidatos y vacantes empresariales.
