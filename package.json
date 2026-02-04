@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "pnpm run build:search-index",
+    "prebuild": "chmod -R +x node_modules/.bin",
     "build": "astro build",
     "build:analyze": "ANALYZE=true astro build",
     "build:search-index": "tsx scripts/build-pagefind-index.ts",
